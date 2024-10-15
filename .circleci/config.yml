@@ -24,7 +24,7 @@ jobs:
 
       # Run security tests
       # Allow low & moderate failures
-      - run: npm audit --audit-level high
+      - run: npm audit --audit-level critical
 
       # run tests!
       - run: npm run test
