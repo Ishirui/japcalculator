@@ -19,17 +19,17 @@ export const FOOD_ITEMS: Array<FoodItem> = [
     imageUrl: Sushi
   },
   {
-    name: "Maki",
+    name: "Maki Roll",
     kcal: 20,
     imageUrl: Maki
   },
   {
-    name: "California",
+    name: "California Roll",
     kcal: 35,
     imageUrl: California
   },
   {
-    name: "Boeuf Fromage",
+    name: "Brochette Boeuf Fromage",
     kcal: 175,
     imageUrl: BeefCheese
   },
@@ -39,7 +39,7 @@ export const FOOD_ITEMS: Array<FoodItem> = [
     imageUrl: Miso
   },
   {
-    name: "Viande",
+    name: "Brochette Viande",
     kcal: 130,
     imageUrl: Meat
   }
