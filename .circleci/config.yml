@@ -22,6 +22,10 @@ jobs:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
 
+      # Run security tests
+      # Allow low & moderate failures
+      - run: npm audit --audit-level high
+
       # run tests!
       - run: npm run test
       - run: npm run build
